@@ -1,0 +1,48 @@
+    1  cd /workspace/sos1920Labs; clear
+    2  export LANG=en_US.UTF-8;export LANGUAGE=en_US.UTF-8;locale-gen;source ~/.profile; [ ! -f ~/.custom_env ] || source ~/.custom_env; clear;
+    3  cd /workspace/sos1920Labs; clear
+    4  echo "# sos1920-labs" >> README.md
+    5  git init
+    6  ls -la
+    7  git add README.md
+    8  ls
+    9  rm main.js
+   10  git add goorm.manifest
+   11  git commit -m "first commit"
+   12  git config --global user.email "jose.carlos.molina.coloma@gmail.com"
+   13  git config --global user.name "josmolcol"
+   14  git commit -m "first commit"
+   15  git remote add origin https://github.com/josmolcol/sos1920-labs.git
+   16  git push -u origin master
+   17  ls
+   18  git checkout -b l04
+   19  ls
+   20  git add .
+   21  git commit -m "update md"
+   22  git push
+   23  git push -u origin l04
+   24  git chckout master
+   25  git chckout l04
+   26  git checkout master
+   27  git checkout l04
+   28  node -v
+   29  npm -v
+   30  ls
+   31  nmp init 
+   32  npm init
+   33  ls
+   34  touch index.js
+   35  node index.js
+   36  npm start
+   37  npm install cool-ascii-faces --save
+   38  npm start
+   39  touch .gitignore
+   40  git add.
+   41  git add .
+   42  git commit -m "created gitignore"
+   43  git push
+   44  npm install
+   45  npm install express --save
+   46  npm start
+   47  history
+   48  history > history.txt
